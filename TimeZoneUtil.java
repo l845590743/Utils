@@ -1,5 +1,3 @@
-package com.team.oschinademo.util;
-
 import java.util.Date;
 import java.util.TimeZone;
 
