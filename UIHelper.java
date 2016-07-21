@@ -1,7 +1,3 @@
-package com.team.oschinademo.util;
-
-
-
 /**
  * 界面帮助类
  * 
