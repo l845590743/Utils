@@ -1,0 +1,9 @@
+adb命令：
+1. 将模拟器中的文件导出到本地
+	1. >adb pull /data/data/com.example.sqlite/databases/user.db c://java/user.db
+2. 通过命令查看数据库文件
+	1. adb shell 进入Linux命令行
+	2. cd /data/data/包名 切换当前目录到指定位置
+	3. ls -l 查看当前目录下所有文件
+	4. sqlite3 user.db 进入SQL命令行
+	5. select * from user.db
